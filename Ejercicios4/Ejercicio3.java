@@ -20,7 +20,7 @@ public class Ejercicio3 {
             System.out.println("Calificación: Suficiente");
         } else if (promedio >= 13 && promedio <= 15) {
             System.out.println("Calificación: Bien");
-        } else if (promedio >= 16 && promedio <= 20) {
+        } else if (promedio > 15 && promedio <= 20) {
             System.out.println("Calificación: Notable / Sobresaliente");
         } else {
             System.out.println("La nota ingresada está fuera de rango.");
