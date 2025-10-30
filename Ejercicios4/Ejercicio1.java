@@ -1,6 +1,6 @@
 package Ejercicios4;
 
-public class Ejericicio1 {
+public class Ejercicio1 {
     public static void main(String[] args) {
         /*
          * Escribe un programa que calcule el salario semanal 
