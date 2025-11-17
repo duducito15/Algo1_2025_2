@@ -11,14 +11,19 @@ public class Ejercicio4 {
         mes = Integer.parseInt(System.console().readLine());
 
         switch (mes) {
-            case 1:
+            case 1: //enero
                 if (dia >= 1 && dia <= 19) {
                     signo = "Capricornio";
                 } else if (dia >= 20 && dia <= 31) {
                     signo = "Acuario";
                 }
                 break;
-            case 2:
+            case 2: // febrero
+                if (dia >= 1 && dia <= 18) {
+                    signo = "Acuario";
+                } else if (dia >= 19 && dia <= 29) {
+                    signo = "Piscis";
+                }
                 break;
             case 3:
                 break;
