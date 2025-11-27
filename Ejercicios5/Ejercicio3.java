@@ -6,7 +6,7 @@ public class Ejercicio3 {
         int i = 0;
 
         do {
-            if (i%5==0) {
+            if (i % 5 == 0) {
                 System.out.println(i);
             }
             i++;
