@@ -13,7 +13,7 @@ public class Funcion3 {
         System.out.println("La resta es: " + Basicas.miResta(num1,num2));
         System.out.println("La multiplicacion es: " + Basicas.miMultiplicacion(num1,num2));
         System.out.println("La division es: " + Basicas.miDivicion(num1, num2));
+        System.out.println("La potencia es: " + Basicas.miPotencia(num1, num2));
     }
-
-   
+  
 }

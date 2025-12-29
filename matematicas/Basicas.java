@@ -24,4 +24,27 @@ public class Basicas {
             return 0;
         }
     }
+
+    //Funcion que calcula la potencia de un numero elevado a la n
+    public static int miPotencia(int b, int p){
+        int resultado=1;
+        for (int i = 0; i < p; i++) {
+            resultado = resultado * b; 
+        }
+        return resultado;
+    }
+
+    public static int[] crearArray(int l) {
+        int[] arreglo = new int[l];
+        for (int i = 0; i < l; i++) {
+            arreglo[i] = (int) (Math.random() * 10 + 1);
+        }
+        return arreglo;
+    }
+
+    public static void mostrarArray(int[] arreglo) {
+        for (int i = 0; i < arreglo.length; i++) {
+            System.out.print(arreglo[i]+ " ");
+        }
+    }
 }
